@@ -31,7 +31,7 @@
         <li><a href="#themes" class="nav-link">THEMES</a></li>
         <li><a href="#schedule" class="nav-link">SCHEDULE</a></li>
         <li class="nav-register-item">
-          <a href="#register" class="nav-link nav-link-register">
+          <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="nav-link nav-link-register" target="_blank" rel="noopener">
             REGISTER
             <img src="audi%20logo-VGoDBqTU.png" alt="AUDI" class="nav-audi-logo" />
           </a>
@@ -55,7 +55,7 @@
       <li><a href="#about" class="mobile-nav-link">ABOUT</a></li>
       <li><a href="#themes" class="mobile-nav-link">THEMES</a></li>
       <li><a href="#schedule" class="mobile-nav-link">SCHEDULE</a></li>
-      <li><a href="#register" class="mobile-nav-link">REGISTER</a></li>
+      <li><a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="mobile-nav-link" target="_blank" rel="noopener">REGISTER</a></li>
     </ul>
   </div>
 
@@ -76,7 +76,7 @@
         HYBRID MODE
       </p>
       <div class="hero-actions anim-fade-up" style="--anim-delay:360ms">
-        <a href="#register" class="btn-primary" id="heroRegisterBtn">REGISTER NOW</a>
+        <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="btn-primary" id="heroRegisterBtn" target="_blank" rel="noopener">REGISTER NOW</a>
         <a href="#themes" class="btn-outline" id="heroExploreBtn">EXPLORE THEMES</a>
       </div>
     </div>
@@ -488,19 +488,94 @@
         <p class="section-label-mono">STUDENT LEADERSHIP</p>
         <h2 class="section-heading">Student Coordinators</h2>
       </div>
-      <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
-        
-        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-          <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Student 1</h4>
-          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
-        </div>
-        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-          <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Student 2</h4>
-          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
-        </div>
-        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-          <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Student 3</h4>
-          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+      <style>
+        .coordinators-slider-container {
+          overflow: hidden;
+          width: 100%;
+          position: relative;
+          padding: 1rem 0;
+        }
+        .coordinators-slider-track {
+          display: flex;
+          gap: 2rem;
+          width: max-content;
+          animation: scroll-coordinators 30s linear infinite;
+        }
+        .coordinators-slider-group {
+          display: flex;
+          gap: 2rem;
+          width: max-content;
+        }
+        .coordinators-slider-track:hover {
+          animation-play-state: paused;
+        }
+        @keyframes scroll-coordinators {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(calc(-50% - 1rem)); }
+        }
+      </style>
+      <div class="coordinators-slider-container">
+        <div class="coordinators-slider-track">
+          <div class="coordinators-slider-group">
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sivaram Varaputhra</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Bala Bhaskar</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Arrhat Nag</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Subashini</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sai Teja</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">S K Rahul Ganesh</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">V Vinitha</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+          </div>
+          <div class="coordinators-slider-group">
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sivaram Varaputhra</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Bala Bhaskar</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Arrhat Nag</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Subashini</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sai Teja</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">S K Rahul Ganesh</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">V Vinitha</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -512,18 +587,18 @@
         <p class="section-label-mono light">JOIN THE EXPO</p>
         <h2 class="register-heading">Ready to Present Your Research?</h2>
         <ul class="register-eligibility">
-          <li>Open to UG / PG Students</li>
+          <li>UG Students</li>
+          <li>PG Students</li>
+          <li>College Students</li>
+          <li>School Students (X, XI, XII Std)</li>
           <li>Team up to 3 members</li>
-          <li>Abstract submission required</li>
           <li>Certificates for all participants</li>
-          <li>Deadline: <strong>[DATE TBD]</strong></li>
         </ul>
       </div>
       <div class="register-right">
         <div class="register-card">
           <p class="reg-fee-label">Register for Free</p>
-          <a href="#" class="btn-accent" id="regNowBtn">REGISTER NOW</a>
-          <a href="#" class="reg-download-link" id="abstractDownloadLink">Download Abstract Format</a>
+          <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="btn-accent" id="regNowBtn" target="_blank" rel="noopener">REGISTER NOW</a>
         </div>
       </div>
     </div>
@@ -536,33 +611,41 @@
         <p class="section-label-mono">RECOGNITION</p>
         <h2 class="section-heading">Awards &amp; Honours</h2>
       </div>
-      <div class="prizes-row">
-        <div class="prize-item">
+      <div class="prizes-row" style="flex-wrap: wrap;">
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
           <span class="prize-num">01</span>
           <h4 class="prize-name">Best Research Paper</h4>
           <span class="prize-amount">₹____</span>
-          <p class="prize-note">Top jury-selected paper</p>
         </div>
         <div class="prize-divider"></div>
-        <div class="prize-item">
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
           <span class="prize-num">02</span>
-          <h4 class="prize-name">Best Innovation</h4>
+          <h4 class="prize-name">Innovative Idea</h4>
           <span class="prize-amount">₹____</span>
-          <p class="prize-note">Most creative solution</p>
         </div>
         <div class="prize-divider"></div>
-        <div class="prize-item">
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
           <span class="prize-num">03</span>
-          <h4 class="prize-name">Best Presentation</h4>
+          <h4 class="prize-name">Best Prototype</h4>
           <span class="prize-amount">₹____</span>
-          <p class="prize-note">Clarity and delivery</p>
         </div>
         <div class="prize-divider"></div>
-        <div class="prize-item">
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
           <span class="prize-num">04</span>
-          <h4 class="prize-name">Audience Choice</h4>
+          <h4 class="prize-name">Best Sustainable Development Project</h4>
           <span class="prize-amount">₹____</span>
-          <p class="prize-note">Voted by participants</p>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">05</span>
+          <h4 class="prize-name">Social Impact Award</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">06</span>
+          <h4 class="prize-name">People’s Choice Award</h4>
+          <span class="prize-amount">₹____</span>
         </div>
       </div>
     </div>
@@ -686,9 +769,9 @@
           <p class="footer-brand-name">THEOREMX 2026</p>
           <p class="footer-tagline">Where Research Meets Intelligence.</p>
           <div class="footer-socials">
-            <a href="#" class="footer-social-link" id="footer-ig" aria-label="Instagram">Instagram</a>
-            <a href="#" class="footer-social-link" id="footer-li" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" class="footer-social-link" id="footer-tw" aria-label="Twitter">Twitter</a>
+            <a href="https://www.instagram.com/mgreri.ds?igsh=amNsZnBnNjNodnZp" class="footer-social-link" id="footer-ig" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.linkedin.com/in/ds-department-mgreri-17b960378?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="footer-social-link" id="footer-li" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://youtube.com/@mgr-ds?si=rxP2sMnW7h_6gUTq" class="footer-social-link" id="footer-yt" aria-label="YouTube" target="_blank" rel="noopener">YouTube</a>
           </div>
         </div>
         <div class="footer-col">
