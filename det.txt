@@ -1,0 +1,25 @@
+THEOREMX 2026: National Research Expo - Detailed Overview
+
+What is THEOREMX 2026?
+THEOREMX 2026 is a premier one-day National Research Expo organized by the Department of Data Science at Dr. M.G.R. Educational and Research Institute. Serving as a dynamic platform where "Research Meets Intelligence," this event is designed to bring together students, innovators, and researchers from across India to explore and showcase groundbreaking ideas in Artificial Intelligence, Data Science, and emerging technologies.
+
+Event Format and Venue
+To ensure maximum accessibility, the expo will be hosted as a hybrid event, accommodating both online and offline participation. The physical event will take place at the Dr. M.G.R. Educational and Research Institute campus located on Periyar E.V.R. High Road in Maduravoyal, Chennai.
+
+Research Domains and Focus Areas
+Participants are encouraged to present their research across a wide spectrum of cutting-edge domains. The expo covers an extensive range of themes, including but not limited to Applied AI/ML, Computer Vision, Deep Learning, Generative AI & LLMs, IoT, Computational Biology & Chemistry, Autonomous Simulation, Reinforcement Learning, Federated Learning, and the Ethics of AI Governance. This diverse thematic focus aims to foster interdisciplinary collaboration and showcase the practical applications of AI in modern science and engineering.
+
+Event Flow and Schedule
+The day is structured to provide a comprehensive and engaging experience for all attendees:
+• Morning: The event kicks off with registration, an official inauguration ceremony featuring the Dean and Department Head, and the commencement of the core research showcase sessions where teams present their papers and projects to an esteemed jury.
+• Afternoon: The focus shifts to interaction and networking. A curated networking lunch provides a space for roundtable discussions. Simultaneously, the Interactive AI Game Stalls open, allowing attendees to experience live AI in action through an AI Quiz Arena, Face Recognition Demos, Prompt Battles, AI Art Generators, and ML Prediction Games. The afternoon concludes with final presentations from the shortlisted teams.
+• Evening: The day culminates in a grand awards ceremony recognizing excellence across multiple categories, followed by the official closing ceremony and group photos.
+
+Awards and Recognition
+Outstanding contributions will be recognized with cash prizes and honors in several categories, including Best Research Paper, Best Innovation, and Best Presentation. Additionally, there is a special Audience Choice award voted on by the event attendees. All registered participants will receive certificates of participation.
+
+Who Can Participate?
+The expo is open to all undergraduate (UG) and postgraduate (PG) students from any college or university in India. Participants can compete individually or in teams of up to three members. To participate in the research showcase, teams must submit a 250-400 word abstract in IEEE format before the deadline. 
+
+Leadership & Contact
+The event is spearheaded by Dr. T. Kirubadevi (Convenor) and Dr. D. Usha (Expo Coordinator and Professor), ensuring a high standard of academic excellence. For further inquiries, the coordination team can be reached via email at theoremx2026@mgr.ac.in or through WhatsApp at +91 98765 43210.
