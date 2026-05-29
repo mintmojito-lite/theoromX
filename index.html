@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>THEOREMX 2026 — National Research Expo | Dept. of Data Science, Dr. M.G.R. ERI</title>
+  <meta name="description" content="THEOREMX 2026 is a National Research Expo organized by the Department of Data Science, Dr. M.G.R. Educational and Research Institute. Explore AI, Data Science, and emerging technologies." />
+  <meta name="keywords" content="THEOREMX 2026, research expo, data science, Dr MGR ERI, national expo, AI, machine learning, Chennai" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-audi-mobile" style="display: none;">
+        <img src="audi%20logo-VGoDBqTU.png" alt="AUDI" class="nav-audi-logo" style="height: 40px !important; width: auto !important; max-width: none !important;" />
+      </div>
+      <div class="nav-brand">
+        <img src="clg-logo-BcHbAi1G.png" alt="Dr. M.G.R. ERI Logo" class="nav-clg-logo" />
+        <div class="nav-brand-text">
+          <span class="brand-name">THEOREM<span class="big-x">X</span></span>
+          <span class="brand-sub">Dept. of Data Science</span>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#themes" class="nav-link">THEMES</a></li>
+        <li><a href="#schedule" class="nav-link">SCHEDULE</a></li>
+        <li class="nav-register-item">
+          <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="nav-link nav-link-register" target="_blank" rel="noopener">
+            REGISTER
+            <img src="audi%20logo-VGoDBqTU.png" alt="AUDI" class="nav-audi-logo" />
+          </a>
+        </li>
+      </ul>
+      <div class="mobile-right-wrap">
+        <span class="mobile-theoremx-text" style="display: none;">THEOREM<span class="big-x">X</span></span>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close navigation">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+    </button>
+    <ul class="mobile-nav-links">
+      <li><a href="#about" class="mobile-nav-link">ABOUT</a></li>
+      <li><a href="#themes" class="mobile-nav-link">THEMES</a></li>
+      <li><a href="#schedule" class="mobile-nav-link">SCHEDULE</a></li>
+      <li><a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="mobile-nav-link" target="_blank" rel="noopener">REGISTER</a></li>
+    </ul>
+  </div>
+
+  
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-tag-wrap anim-fade-up" style="--anim-delay:0ms">
+        <span class="pill-tag pill-outline">NATIONAL RESEARCH EXPO</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-line anim-fade-up" style="--anim-delay:80ms">THEOREM<span class="big-x">X</span></span>
+        <span class="hero-line hero-year anim-fade-up" style="--anim-delay:160ms">2026</span>
+      </h1>
+      <p class="hero-meta anim-fade-up" style="--anim-delay:260ms">
+        DEPT. OF DATA SCIENCE<br>
+        DR. M.G.R. EDUCATIONAL AND RESEARCH INSTITUTE<br>
+        24 JUNE 2026<br>
+        HYBRID MODE
+      </p>
+      <div class="hero-actions anim-fade-up" style="--anim-delay:360ms">
+        <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="btn-primary" id="heroRegisterBtn" target="_blank" rel="noopener">REGISTER NOW</a>
+        <a href="#themes" class="btn-outline" id="heroExploreBtn">EXPLORE THEMES</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="poster-section section" id="poster" style="background-color: var(--bg-white); padding-top: 1rem; padding-bottom: 1rem;">
+    <div class="container" style="text-align: center;">
+      <div class="section-header" style="margin-bottom: 2rem;">
+        <p class="section-label-mono">EVENT POSTER</p>
+        <h2 class="section-heading">Official Poster</h2>
+      </div>
+      <img src="poster.jpeg" alt="THEOREMX Poster" style="width: 100%; max-width: 1000px; height: auto; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+    </div>
+  </section>
+
+  
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="about-heading scroll-reveal">
+            <span class="block">WHERE</span>
+            <span class="block">RESEARCH</span>
+            <span class="block">MEETS</span>
+            <span class="block accent-text">INTELLIGENCE</span>
+          </h2>
+        </div>
+        <div class="about-right scroll-reveal" style="--reveal-delay:100ms">
+          <p class="about-desc">
+            THEOREMX is a one-day research expo bringing together students, innovators, and researchers to showcase ideas in AI, Data Science, and emerging technologies.
+          </p>
+          <div class="about-pills">
+            <span class="pill-tag pill-navy">RESEARCH PRESENTATIONS</span>
+            <span class="pill-tag pill-navy">INNOVATION SHOWCASE</span>
+            <span class="pill-tag pill-navy">AI GAME STALLS</span>
+            <span class="pill-tag pill-navy">NETWORKING</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="themes section" id="themes">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label-mono">RESEARCH THEMES</p>
+        <h2 class="section-heading">Explore the Domains</h2>
+      </div>
+      <div class="themes-grid">
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Applied AI / ML</h3>
+            <p class="theme-desc">Practical Intelligence</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/><path d="M15.7 3.8c-2.04-2.03-7.36-.02-11.9 4.5-4.54 4.52-6.54 9.87-4.5 11.9 2.04 2.03 7.36.02 11.9-4.5 4.54-4.52 6.54-9.87 4.5-11.9Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Automated Scheduler and Planner</h3>
+            <p class="theme-desc">Optimizing Operations</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Autonomous Simulation</h3>
+            <p class="theme-desc">Virtual Realities</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Computational Biology</h3>
+            <p class="theme-desc">AI in Life Sciences</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Computational Chemistry</h3>
+            <p class="theme-desc">Molecular Modelling</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Computer Vision</h3>
+            <p class="theme-desc">Teaching Machines to See</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Deep Learning</h3>
+            <p class="theme-desc">Neural Networks</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/><path d="M15.7 3.8c-2.04-2.03-7.36-.02-11.9 4.5-4.54 4.52-6.54 9.87-4.5 11.9 2.04 2.03 7.36.02 11.9-4.5 4.54-4.52 6.54-9.87 4.5-11.9Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Differential Privacy</h3>
+            <p class="theme-desc">Secure Data</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Ethics of AI Governance</h3>
+            <p class="theme-desc">Responsible AI</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Federated Learning &amp; Controls</h3>
+            <p class="theme-desc">Distributed Intelligence</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Generative AI and LLMs</h3>
+            <p class="theme-desc">Creative Algorithms</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">IoT</h3>
+            <p class="theme-desc">Connected Everywhere</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Linguistic Data Curation</h3>
+            <p class="theme-desc">Language Processing</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/><path d="M15.7 3.8c-2.04-2.03-7.36-.02-11.9 4.5-4.54 4.52-6.54 9.87-4.5 11.9 2.04 2.03 7.36.02 11.9-4.5 4.54-4.52 6.54-9.87 4.5-11.9Z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Reinforcement Learning</h3>
+            <p class="theme-desc">Reward-Based Systems</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Ex AI (Explainable AI)</h3>
+            <p class="theme-desc">Transparent Models</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Scientific Machine Learning</h3>
+            <p class="theme-desc">Data-Driven Science</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Systems for AI</h3>
+            <p class="theme-desc">Infrastructure &amp; Architecture</p>
+          </div>
+        </div>
+        <div class="theme-card scroll-reveal">
+          <div class="theme-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg>
+          </div>
+          <div class="theme-content">
+            <h3 class="theme-name">Science &amp; Engineering</h3>
+            <p class="theme-desc">But not limited to...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="schedule section" id="schedule">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label-mono">EVENT SCHEDULE</p>
+        <h2 class="section-heading">One Day. Full of Ideas.</h2>
+      </div>
+      <div class="schedule-filters">
+        <button class="filter-pill active" data-filter="all" id="filter-all">ALL</button>
+        <button class="filter-pill" data-filter="morning" id="filter-morning">MORNING</button>
+        <button class="filter-pill" data-filter="afternoon" id="filter-afternoon">AFTERNOON</button>
+        <button class="filter-pill" data-filter="evening" id="filter-evening">EVENING</button>
+      </div>
+
+      <div class="schedule-list">
+        
+        <div class="schedule-session-header" data-session="morning">
+          <span>Morning Session</span>
+        </div>
+        <div class="schedule-card" data-session="morning">
+          <span class="sched-time">09:00</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Registration &amp; Welcome</h4>
+              <span class="pill-tag pill-small">REGISTRATION</span>
+            </div>
+            <p class="sched-desc">Check-in, badges, and kit distribution for all participants.</p>
+          </div>
+        </div>
+        <div class="schedule-card" data-session="morning">
+          <span class="sched-time">10:00</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Opening Ceremony</h4>
+              <span class="pill-tag pill-small">INAUGURATION</span>
+            </div>
+            <p class="sched-desc">Welcome address by the Dean and Department Head. Lighting of the lamp ceremony.</p>
+          </div>
+        </div>
+        <div class="schedule-card" data-session="morning">
+          <span class="sched-time">11:00</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Research Showcase Sessions Begin</h4>
+              <span class="pill-tag pill-small">RESEARCH</span>
+            </div>
+            <p class="sched-desc">Teams begin presenting their research papers and projects to the jury.</p>
+          </div>
+        </div>
+
+        
+        <div class="schedule-session-header" data-session="afternoon">
+          <span>Afternoon Session</span>
+        </div>
+        <div class="schedule-card" data-session="afternoon">
+          <span class="sched-time">12:30</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">AI Game Stalls Open</h4>
+              <span class="pill-tag pill-small">INTERACTIVE</span>
+            </div>
+            <p class="sched-desc">All interactive AI stalls open for all attendees to explore and participate.</p>
+          </div>
+        </div>
+        <div class="schedule-card" data-session="afternoon">
+          <span class="sched-time">01:30</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Lunch</h4>
+              <span class="pill-tag pill-small">BREAK</span>
+            </div>
+            <p class="sched-desc">Curated networking lunch with roundtable discussions and informal meetups.</p>
+          </div>
+        </div>
+        <div class="schedule-card" data-session="afternoon">
+          <span class="sched-time">02:30</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Final Presentations &amp; Evaluation</h4>
+              <span class="pill-tag pill-small">RESEARCH</span>
+            </div>
+            <p class="sched-desc">Shortlisted teams present to the esteemed jury panel for final evaluation.</p>
+          </div>
+        </div>
+
+        
+        <div class="schedule-session-header" data-session="evening">
+          <span>Evening Session</span>
+        </div>
+        <div class="schedule-card" data-session="evening">
+          <span class="sched-time">04:30</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Prize Distribution</h4>
+              <span class="pill-tag pill-small">AWARDS</span>
+            </div>
+            <p class="sched-desc">Award ceremony recognizing top research, innovation, and AI game champions.</p>
+          </div>
+        </div>
+        <div class="schedule-card" data-session="evening">
+          <span class="sched-time">05:30</span>
+          <div class="sched-body">
+            <div class="sched-top">
+              <h4 class="sched-title">Closing Ceremony</h4>
+              <span class="pill-tag pill-small">CLOSING</span>
+            </div>
+            <p class="sched-desc">Closing remarks, group photos, and official wrap-up of THEOREMX 2026.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="stalls section" id="stalls">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label-mono">INTERACTIVE STALLS</p>
+        <h2 class="section-heading">Step Away from the Slides.</h2>
+      </div>
+      <div class="stalls-grid">
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">AI Quiz Arena</h4>
+            <p class="stall-desc">Test your ML knowledge</p>
+          </div>
+          <span class="pill-tag pill-small">QUIZ</span>
+        </div>
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">Face Recognition Demo</h4>
+            <p class="stall-desc">Live AI in action</p>
+          </div>
+          <span class="pill-tag pill-small">LIVE DEMO</span>
+        </div>
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">Prompt Battle</h4>
+            <p class="stall-desc">Best AI prompt wins</p>
+          </div>
+          <span class="pill-tag pill-small">GAME</span>
+        </div>
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">AI Art Generator</h4>
+            <p class="stall-desc">Create art in seconds</p>
+          </div>
+          <span class="pill-tag pill-small">WORKSHOP</span>
+        </div>
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">Reaction Time Game</h4>
+            <p class="stall-desc">Can you beat the bot?</p>
+          </div>
+          <span class="pill-tag pill-small">GAME</span>
+        </div>
+        <div class="stall-row">
+          <div class="stall-info">
+            <h4 class="stall-name">ML Prediction Game</h4>
+            <p class="stall-desc">Train a model, win a prize</p>
+          </div>
+          <span class="pill-tag pill-small">INTERACTIVE</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="coordinators section" id="coordinators" style="background: var(--bg-offwhite);">
+    <div class="container">
+      <div class="section-header" style="text-align: center; margin-bottom: 2rem;">
+        <p class="section-label-mono">LEADERSHIP</p>
+        <h2 class="section-heading">Event Coordinators</h2>
+      </div>
+      <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <img src="hod.png" alt="Dr. T. Kirubadevi" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid var(--bg-offwhite);" />
+          <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Dr. T. Kirubadevi</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Convenor</p>
+        </div>
+        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+          <img src="usha.png" alt="Dr. D. Usha" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; border: 3px solid var(--bg-offwhite);" />
+          <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Dr. D. Usha</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Expo Coordinator, Professor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="student-coordinators section" id="student-coordinators" style="background: var(--bg-white);">
+    <div class="container">
+      <div class="section-header" style="text-align: center; margin-bottom: 2rem;">
+        <p class="section-label-mono">STUDENT LEADERSHIP</p>
+        <h2 class="section-heading">Student Coordinators</h2>
+      </div>
+      <style>
+        .coordinators-slider-container {
+          overflow: hidden;
+          width: 100%;
+          position: relative;
+          padding: 1rem 0;
+        }
+        .coordinators-slider-track {
+          display: flex;
+          gap: 2rem;
+          width: max-content;
+          animation: scroll-coordinators 30s linear infinite;
+        }
+        .coordinators-slider-group {
+          display: flex;
+          gap: 2rem;
+          width: max-content;
+        }
+        .coordinators-slider-track:hover {
+          animation-play-state: paused;
+        }
+        @keyframes scroll-coordinators {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(calc(-50% - 1rem)); }
+        }
+      </style>
+      <div class="coordinators-slider-container">
+        <div class="coordinators-slider-track">
+          <div class="coordinators-slider-group">
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sivaram Varaputhra</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Bala Bhaskar</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Arrhat Nag</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Subashini</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sai Teja</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">S K Rahul Ganesh</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">V Vinitha</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+          </div>
+          <div class="coordinators-slider-group">
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sivaram Varaputhra</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Bala Bhaskar</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Arrhat Nag</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">Subashini</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">K. Sai Teja</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">S K Rahul Ganesh</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+            <div style="background: #fff; padding: 1.5rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); width: 250px; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+              <h4 style="font-family: var(--font-head); font-size: 1.1rem; color: var(--text-navy); margin-bottom: 0.25rem;">V Vinitha</h4>
+              <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Student Coordinator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="register section" id="register">
+    <div class="register-inner">
+      <div class="register-left">
+        <p class="section-label-mono light">JOIN THE EXPO</p>
+        <h2 class="register-heading">Ready to Present Your Research?</h2>
+        <ul class="register-eligibility">
+          <li>UG Students</li>
+          <li>PG Students</li>
+          <li>College Students</li>
+          <li>School Students (X, XI, XII Std)</li>
+          <li>Team up to 3 members</li>
+          <li>Certificates for all participants</li>
+        </ul>
+      </div>
+      <div class="register-right">
+        <div class="register-card">
+          <p class="reg-fee-label">Register for Free</p>
+          <a href="https://forms.gle/HN2yXXsQz3uoho1w5" class="btn-accent" id="regNowBtn" target="_blank" rel="noopener">REGISTER NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="prizes section" id="prizes">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label-mono">RECOGNITION</p>
+        <h2 class="section-heading">Awards &amp; Honours</h2>
+      </div>
+      <div class="prizes-row" style="flex-wrap: wrap;">
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">01</span>
+          <h4 class="prize-name">Best Research Paper</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">02</span>
+          <h4 class="prize-name">Innovative Idea</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">03</span>
+          <h4 class="prize-name">Best Prototype</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">04</span>
+          <h4 class="prize-name">Best Sustainable Development Project</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">05</span>
+          <h4 class="prize-name">Social Impact Award</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+        <div class="prize-divider"></div>
+        <div class="prize-item" style="min-width: 250px; flex: 1 1 calc(33.333% - 2px);">
+          <span class="prize-num">06</span>
+          <h4 class="prize-name">People’s Choice Award</h4>
+          <span class="prize-amount">₹____</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="contact-heading">GOT QUESTIONS?</h2>
+          <p class="contact-desc">Reach out to our coordinators for any queries about registration, abstract submission, or event logistics.</p>
+          <div class="contact-btns">
+            <a href="mailto:theoremx2026@mgr.ac.in" class="btn-outline-navy" id="emailUsBtn">EMAIL US →</a>
+            <a href="https://wa.me/918885680432" class="btn-outline-navy" id="whatsappBtn" target="_blank" rel="noopener">WHATSAPP →</a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="faq-list">
+            <div class="faq-item" id="faq-1">
+              <button class="faq-question" aria-expanded="false">
+                <span>Who can participate?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>THEOREMX 2026 is open to all undergraduate and postgraduate students from any college or university across India. Interdisciplinary teams are encouraged.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-2">
+              <button class="faq-question" aria-expanded="false">
+                <span>Individual or team event?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Both individual and team participation is allowed. Teams can have up to 3 members. All members will receive individual certificates.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-3">
+              <button class="faq-question" aria-expanded="false">
+                <span>What is the abstract format?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Abstracts should be 250–400 words in IEEE format. Download the official template from the Register section. Include title, authors, objectives, methodology, and expected outcomes.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-4">
+              <button class="faq-question" aria-expanded="false">
+                <span>Will certificates be provided?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Yes. Participation certificates are provided to all registered attendees. Merit certificates and awards are given to winners in all categories.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-5">
+              <button class="faq-question" aria-expanded="false">
+                <span>Is there a registration fee?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Registration details including fee (if applicable) will be announced closer to the event date. Participants from Dr. MGR ERI may be eligible for free registration.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-6">
+              <button class="faq-question" aria-expanded="false">
+                <span>How will winners be selected?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>An esteemed jury panel of faculty and industry experts will evaluate research quality, innovation, presentation clarity, and impact. The Audience Choice Award is voted by all attendees.</p>
+              </div>
+            </div>
+            <div class="faq-item" id="faq-7">
+              <button class="faq-question" aria-expanded="false">
+                <span>What should I bring on the day?</span>
+                <svg class="faq-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Bring your college ID, a printed or digital copy of your abstract, and your laptop if participating in tech stalls. Presenters should have their slides ready on a USB drive as backup.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="location section" id="location" style="background: var(--bg-white);">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label-mono">VENUE</p>
+        <h2 class="section-heading">Join Us Here</h2>
+      </div>
+      <div class="map-container" style="border-radius: 10px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <div style="padding: 1.5rem; background: var(--bg-offwhite); border-bottom: 1px solid var(--border);">
+          <h4 style="font-family: var(--font-head); font-weight: 700; color: var(--text-navy); margin-bottom: 0.5rem; font-size: 1.1rem;">Dr. M.G.R. Educational and Research Institute</h4>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Periyar E.V.R. High Road, Vishwas Nagar, Maduravoyal, Chennai, Tamil Nadu 600095</p>
+          <p style="color: var(--text-navy); font-size: 0.85rem; margin-top: 0.5rem; font-weight: 600;">Event Type: Hybrid (Online &amp; Offline)</p>
+        </div>
+        <div style="padding: 1.5rem; text-align: center; background: #fff;">
+          <img src="WhatsApp Image 2026-05-28 at 1.18.57 PM.jpeg" alt="College Photo" style="border-radius: 8px; width: 100%; height: auto; max-height: 400px; object-fit: cover; margin-bottom: 1.5rem;" />
+          <a href="https://maps.app.goo.gl/NKxgfLYFMZLSsi2A9" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--accent); color: #fff; padding: 0.75rem 1.5rem; border-radius: 100px; font-weight: 600; text-decoration: none;">
+            <span>Open in Google Maps</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <footer class="footer" id="footer">
+    <div class="footer-bg-text" aria-hidden="true">DON'T MISS ANYTHING</div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <p class="footer-brand-name">THEOREMX 2026</p>
+          <p class="footer-tagline">Where Research Meets Intelligence.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/mgreri.ds?igsh=amNsZnBnNjNodnZp" class="footer-social-link" id="footer-ig" aria-label="Instagram" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.linkedin.com/in/ds-department-mgreri-17b960378?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="footer-social-link" id="footer-li" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://youtube.com/@mgr-ds?si=rxP2sMnW7h_6gUTq" class="footer-social-link" id="footer-yt" aria-label="YouTube" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">QUICK LINKS</p>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#location">Venue</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">COORDINATORS</p>
+          <div class="footer-contact-info">
+            <p class="footer-contact-name">Dr. G. R. Jothilakshmi</p>
+            <p class="footer-contact-name">Dr. A. R. Revathi</p>
+            <a href="mailto:theoremx2026@mgr.ac.in" class="footer-contact-link">theoremx2026@mgr.ac.in</a>
+            <a href="tel:+918885680432" class="footer-contact-link">+91 88856 80432</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Department of Data Science | Dr. M.G.R. Educational and Research Institute</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
